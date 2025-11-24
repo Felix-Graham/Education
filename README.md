@@ -26,12 +26,12 @@ It is also advisable to download the attatched vocab files for out of the box us
 of these files to you main file system, it is recommended to create files to sort the scripts and vocab. Below is
 my ideal layout for the above:
 
-
-├── scripts
-|     ├── vocab_quiz.py
-└── vocab
- ├── test.txt
-    ├── vocab_1-1.txt
+    
+    ├── scripts
+    |     ├── vocab_quiz.py
+    └── vocab
+     ├── test.txt
+        ├── vocab_1-1.txt
 
 
 ### Setting up the Script
