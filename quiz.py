@@ -3,6 +3,34 @@ import time
 import os
 import argparse
 
+
+############
+# autoconf #
+############
+
+def autoconf():
+    import sys
+    load(10, 0.1)
+    homedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    with open("config.txt", "w") as f:
+        f.write(homedir)
+        f.close()
+
+def getconf():
+    try:
+        with open("config.txt", "r") as f:
+            l = f.readlines()
+            print(l)
+            f.close()
+            script_location = ''.join(l)
+            print(script_location)
+
+            vocab_location = script_location+"/vocab"
+            return script_location, vocab_location
+    except:
+        print("Config not loaded. Please re-run with 'load' as a keyword")
+
+
 #################
 # miscellaneous #
 #################
@@ -39,7 +67,7 @@ def ran_multi(vocab_list):
 ###########
 
 def getfiles(choice):
-    os.chdir("/home/rhemus/french/vocab/")
+    os.chdir(vocab_location)
     files = os.listdir()
     files = purefiles(files)
     
@@ -79,7 +107,7 @@ def purefiles(files):
     return clean_files
 
 def merge(files):
-    os.chdir("/home/rhemus/french/vocab/")
+    os.chdir(vocab_location)
     total = []
     
     for file in files:
@@ -278,7 +306,11 @@ def main(option):
     os.system("clear")
     pront("Welcome to French Vocabulary Quiz", 0.05)
     print()
-    
+
+    global script_location
+    global vocab_location
+    script_location, vocab_location = getconf()
+    #exit()
     # Get files
     files = getfiles(option)
     vocab_list = merge(files)
@@ -338,6 +370,10 @@ if __name__ == "__main__":
         print("Selected: ALL files")
         time.sleep(1)
         main(inp)
+    elif inp == "load":
+        print("Generating...")
+        autoconf()
+        exit()
     else:
         print("Selected: SELECT files")
         time.sleep(1)
