@@ -14,7 +14,7 @@ To install the program is very simple. Simply navigate to you command line/cmd/t
 
       git clone https://github.com/Felix-Graham/French-Vocab-Quiz.git
 
-This should install everything you can see above to your home in your file system. Once again in the terminal, type 'ls' to show all files and folders at your current location. You should see something like 'French-Vocab-Quiz' as well as any other files which you may have there. Finally, type 'cd French-Vocab-Quiz', or whichever name you beleive it is. A last 'ls' will confirm that your are in you own copy of the vocab quiz.
+This should install everything you can see above to your home in your file system. Once again in the terminal, type 'ls' to show all files and folders at your current location. You should see something like `French-Vocab-Quiz` as well as any other files which you may have there. Finally, type `cd French-Vocab-Quiz`, or whichever name you beleive it is. A last `ls` will confirm that your are in you own copy of the vocab quiz.
 
 
 ## Setup
@@ -23,7 +23,7 @@ I have very recently added an auto-config feature, meaning that you have to do a
 
       python3 quiz.py load
 
-which will create a text file called 'config.txt' in the folder. This simply stores the address of the code, meaning that you don't have to manualy edit it. 
+which will create a text file called `config.txt` in the folder. This simply stores the address of the code, meaning that you don't have to manualy edit it. 
 
 
 ## Usage
