@@ -33,10 +33,10 @@ def getconf():
     try:
         with open("config.txt", "r") as f:
             l = f.readlines()
-            print(l)
+            #print(l)
             f.close()
             script_location = ''.join(l)
-            print(script_location)
+            #print(script_location)
 
             vocab_location = script_location+"/vocab"
             return script_location, vocab_location
