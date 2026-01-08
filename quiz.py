@@ -4,6 +4,19 @@ import os
 import argparse
 
 
+##############
+# autoupdate #
+##############
+
+def autoupdate():
+    try:
+        os.system("git pull")
+        os.system("python3 quiz.py select")
+    except:
+        pass
+
+
+
 ############
 # autoconf #
 ############
@@ -67,6 +80,7 @@ def ran_multi(vocab_list):
 ###########
 
 def getfiles(choice):
+    autoupdate()
     os.chdir(vocab_location)
     files = os.listdir()
     files = purefiles(files)
