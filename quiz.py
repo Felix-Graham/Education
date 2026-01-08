@@ -80,7 +80,7 @@ def ran_multi(vocab_list):
 ###########
 
 def getfiles(choice):
-    autoupdate()
+    #autoupdate()
     os.chdir(vocab_location)
     files = os.listdir()
     files = purefiles(files)
@@ -382,7 +382,8 @@ if __name__ == "__main__":
     
     if inp == 'all':
         print("Selected: ALL files")
-        time.sleep(1)
+        #time.sleep(1)
+        autoupdate()
         main(inp)
     elif inp == "load":
         print("Generating...")
@@ -390,5 +391,6 @@ if __name__ == "__main__":
         exit()
     else:
         print("Selected: SELECT files")
-        time.sleep(1)
+        #time.sleep(1)
+        autoupdate()
         main(inp)
