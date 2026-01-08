@@ -11,7 +11,7 @@ import argparse
 def autoupdate():
     try:
         os.system("git pull")
-        os.system("python3 quiz.py select")
+        #os.system("python3 quiz.py select")
     except:
         pass
 
