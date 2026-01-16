@@ -7,7 +7,7 @@ accompanied
 l'agglomération (f)
 urban district
 ancien(ne)
-old
+ancient
 l'artisanat (m)
 arts and crafts
 l'atelier (m)
@@ -21,7 +21,7 @@ tourist boat
 le bien
 goods/possessions
 au carte
-map/plan
+map
 célèbre
 famous
 le concepteur
@@ -68,7 +68,7 @@ le préservation
 preservation
 protéger
 to protect
-lq quai
+la quai
 quay
 renommé
 well known
