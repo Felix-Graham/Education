@@ -1,39 +1,39 @@
 4.1
 
 l'abonnement (m)
-subscription
+the subscription
 accompagné
 accompanied
 l'agglomération (f)
-urban district
+the urban district
 ancien(ne)
 ancient
 l'artisanat (m)
-arts and crafts
+the arts and crafts
 l'atelier (m)
-workshop
+the workshop
 attire
 to attract
 augmenter
 to increase
 le bateau-mouche
-tourist boat
+the tourist boat
 le bien
-goods/possessions
+the goods
 au carte
-map
+a map
 célèbre
 famous
 le concepteur
-creator
+the creator
 la confection
 the making
 la découverte
-discovery
+the discovery
 décourager
 to discourage
 l'échange (m)
-exchange
+the exchange
 emblématique
 symbolic
 émerveiller
@@ -41,11 +41,11 @@ to enthral
 emmener
 to lead
 l'époque (f)
-time
+the time
 l'événement (m)
-event
+the event
 la façade
-frontage
+the frontage
 au fil du temps
 over time
 flâner
@@ -53,42 +53,42 @@ to wander
 inscrire
 to record
 la journée
-a day
+the day
 léguer
 to leave to
 l'œvre (f)
-work
+the work
 le patrimoine (immatériel)
-heritage (intangible)
+the heritage
 le patrimoine (matériel)
-heritage (material)
+the heritage 
 la préfecture
-admin centre
+the admin centre
 le préservation
-preservation
+the preservation
 protéger
 to protect
 la quai
-quay
+the quay
 renommé
 well known
 la restauration
-restoration
+the restoration
 la richesse
-wealth
+the wealth
 la rive
-river bank
+the river bank
 sensibiliser
 to raise awareness
 le sciècle
-century
+the century
 songer
 to dream of
 le trésor
-treasure
+the treasure
 triste
 sad
 l'usager (m)
-user
+the user
 la visite (guidée)
-guided tour
+the guided tour
